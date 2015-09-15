@@ -25,6 +25,34 @@ public class MarshmellowMonster
 		this.monsterHair = monsterHair;
 		this.monsterLegs = monsterLegs;
 	}
+	public String getMonsterName()
+	{
+		return monsterName;
+	}
+	public int getMonsterEyes()
+	{
+		return monsterEyes;
+	}
+	public int getMonsterNoses()
+	{
+		return monsterNoses;
+	}
+	public boolean getMonsterBellyButton()
+	{
+		return monsterBellyButton;
+	}
+	public double getMonsterLegs()
+	{
+		return monsterLegs;
+	}
+	public double getMonsterHair()
+	{
+		return monsterHair;
+	}
+	
+	{
+	
+	}
 	
 	public String toString()
 	{
