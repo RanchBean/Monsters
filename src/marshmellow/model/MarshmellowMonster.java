@@ -24,7 +24,7 @@ public class MarshmellowMonster
 		this.monsterNoses = monsterNoses;
 		this.monsterHair = monsterHair;
 		this.monsterLegs = monsterLegs;
-	}
+	} //getters
 	public String getMonsterName()
 	{
 		return monsterName;
@@ -50,7 +50,7 @@ public class MarshmellowMonster
 		return monsterHair;
 	}
 	
-	{
+	{ // setters
 	
 	}
 	
