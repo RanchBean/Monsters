@@ -49,11 +49,14 @@ public class MarshmellowMonster
 	{
 		return monsterHair;
 	}
-	
-	{ // setters
-	
+	// setters
+	{ 
+	public void setMonsterName(String monsterName)
 	}
-	
+		this.monsterName = monsterName;
+	{
+	public void setMonsterEyes*(int monsterEyes)
+	}
 	public String toString()
 	{
 		String monsterInfo = "My monster has " + monsterEyes + " eyes and their name is " + monsterName;
