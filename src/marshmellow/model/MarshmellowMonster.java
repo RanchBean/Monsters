@@ -49,14 +49,31 @@ public class MarshmellowMonster
 	{
 		return monsterHair;
 	}
-	// setters
-	{ 
-	public void setMonsterName(String monsterName)
-	}
-		this.monsterName = monsterName;
+	public void setMonsterName(String monstername)
 	{
-	public void setMonsterEyes*(int monsterEyes)
+		this.monsterName = monstername;
 	}
+	public void setMonsterEyes(int monsterEyes)
+	{
+		this.monsterEyes = monsterEyes;
+	}
+	public void setMonsterNoses(int monsterNoses)
+	{
+		this.monsterNoses = monsterNoses;
+	}
+	public void setMonsterBellyButton(boolean monsterBellyButton)
+	{
+		this.monsterBellyButton = monsterBellyButton;
+	}
+	public void setMonsterLegs(double monsterLegs)
+	{
+		this.monsterLegs = monsterLegs;
+	}
+	public void setMonsterHair(double monsterHair)
+	{
+		this.monsterHair = monsterHair;
+	}
+	
 	public String toString()
 	{
 		String monsterInfo = "My monster has " + monsterEyes + " eyes and their name is " + monsterName;
